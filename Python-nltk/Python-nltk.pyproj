@@ -5,7 +5,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>706143bb-546a-45eb-87e3-801fd02be1f2</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>nltk_stem.py</StartupFile>
+    <StartupFile>nltk_lemmatize.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -22,6 +22,15 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="nltk_entity_recognition.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="nltk_lemmatize.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="nltk_pos.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="nltk_stem.py">
       <SubType>Code</SubType>
     </Compile>
